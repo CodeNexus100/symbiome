@@ -723,6 +723,34 @@ h6 {
     line-height: 1.5;
 }
 
+/* Address Block Styling */
+.info-address-group {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    flex: 1;
+}
+
+.address-subblock h5 {
+    font-size: 0.95rem;
+    color: var(--primary-green);
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.address-subblock p {
+    font-size: 0.95rem;
+    color: var(--text-dark);
+    line-height: 1.65;
+}
+
+.address-divider-line {
+    height: 1px;
+    background-color: #E5E7EB;
+    width: 100%;
+    margin: 2px 0;
+}
+
 /* Contact Right Content (Form Card) */
 .contact-right {
     display: flex;
