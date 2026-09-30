@@ -1,0 +1,8 @@
+# Robots.txt for Symbiome Medtech Private Limited
+# Official Website: https://symbiomemedtech.com/
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://symbiomemedtech.com/sitemap.xml

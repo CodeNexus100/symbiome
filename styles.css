@@ -512,6 +512,10 @@ h6 {
     background-color: #FAFAFA;
 }
 
+.featured-product + .featured-product {
+    border-top: 1px solid var(--border-color);
+}
+
 
 
 .featured-grid {
@@ -628,6 +632,10 @@ h6 {
     filter: drop-shadow(0 20px 40px rgba(0,0,0,0.1));
     transform: scale(1.2);
     transform-origin: right center;
+}
+
+.featured-image.prp-image img {
+    transform: scale(0.96); /* 20% smaller than the 1.2 desktop scale */
 }
 
 /* Contact Section */
@@ -1406,7 +1414,8 @@ h6 {
         margin-right: -20px;
     }
 
-    .featured-image img {
+    .featured-image img,
+    .featured-image.prp-image img {
         transform: scale(1); /* Reset scaling on mobile */
     }
 
